@@ -1,4 +1,3 @@
-<!-- Created by ChatGPT on 2025-06-04 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,21 +15,36 @@
         header, section {
             margin-bottom: 2rem;
         }
+        a {
+            color: #0066cc;
+        }
+        .post-list {
+            list-style: none;
+            padding: 0;
+        }
+        .post-list li {
+            margin-bottom: 1rem;
+        }
+        .post-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Thanh's Blog</h1>
+        <p>Hello! I'm Thanh, and this site is a place to share my thoughts and projects.</p>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Thanh, and this site is a place to share my thoughts and projects.</p>
-    </section>
-
-    <section id="first-blog">
-        <h2>First Blog</h2>
-        <p>Welcome to my first blog post. I'm excited to start blogging and will use this space to document my journey.</p>
+    <section>
+        <h2>Posts</h2>
+        <ul class="post-list">
+            <li>
+                <a href="posts/hello-world.html">Hello World</a>
+                <div class="post-date">February 2026</div>
+            </li>
+        </ul>
     </section>
 </body>
 </html>
